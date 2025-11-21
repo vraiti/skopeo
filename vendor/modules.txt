@@ -66,6 +66,11 @@ github.com/containers/ocicrypt/keywrap/pkcs7
 github.com/containers/ocicrypt/spec
 github.com/containers/ocicrypt/utils
 github.com/containers/ocicrypt/utils/keyprovider
+# github.com/containers/tar-diff v0.1.2
+## explicit
+github.com/containers/tar-diff/pkg/common
+github.com/containers/tar-diff/pkg/tar-diff
+github.com/containers/tar-diff/pkg/tar-patch
 # github.com/coreos/go-oidc/v3 v3.14.1
 ## explicit; go 1.23.0
 github.com/coreos/go-oidc/v3/oidc
