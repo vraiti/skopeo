@@ -96,6 +96,7 @@ func createApp() (*cobra.Command, *globalOptions) {
 	flag.Hidden = true
 	rootCommand.AddCommand(
 		copyCmd(&opts),
+		deltaCmd(&opts),
 		deleteCmd(&opts),
 		generateSigstoreKeyCmd(),
 		inspectCmd(&opts),

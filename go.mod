@@ -8,6 +8,7 @@ go 1.24.2
 require (
 	github.com/Masterminds/semver/v3 v3.4.0
 	github.com/containers/ocicrypt v1.2.1
+	github.com/containers/tar-diff v0.1.2
 	github.com/docker/distribution v2.8.3+incompatible
 	github.com/moby/sys/capability v0.4.0
 	github.com/opencontainers/go-digest v1.0.0
@@ -36,6 +37,7 @@ require (
 	github.com/containerd/errdefs v1.0.0 // indirect
 	github.com/containerd/errdefs/pkg v0.3.0 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.18.1 // indirect
+	github.com/containers/image/v5 v5.4.3 // indirect
 	github.com/containers/libtrust v0.0.0-20230121012942-c1716e8a8d01 // indirect
 	github.com/coreos/go-oidc/v3 v3.14.1 // indirect
 	github.com/cyberphone/json-canonicalization v0.0.0-20241213102144-19d51d7fe467 // indirect
